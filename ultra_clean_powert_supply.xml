@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/samz/projects/mfos_noise_toaster/ultra_clean_powert_supply/ultra_clean_powert_supply.sch</source>
+    <date>Friday, 09 October 2020 at 12:51:37 pm</date>
+    <tool>Eeschema (5.1.7-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Ultra Clean Power Supply</title>
+        <company>Sam Zeter</company>
+        <rev/>
+        <date>2020-10-08</date>
+        <source>ultra_clean_powert_supply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D3">
+      <value>1N4002</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4002" description="100V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7EE2CA</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4002</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4002" description="100V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7EF1E3</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4002</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4002" description="100V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F1328</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4002</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4002" description="100V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F1877</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>274</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F1FB8</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F238E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>6.8K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F27C1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F29A8</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F3316</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4002</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4002" description="100V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F3B5C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F4552</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM317T</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/LM317T/497-1575-5-ND/591677</field>
+        <field name="Description">IC REG LIN POS ADJ 1.5A TO220AB</field>
+        <field name="Digi-Key_PN">497-1575-5-ND</field>
+        <field name="Family">PMIC - Voltage Regulators - Linear</field>
+        <field name="MPN">LM317T</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_PMIC-Voltage-Regulators-Linear" part="LM317T" description="IC REG LIN POS ADJ 1.5A TO220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F56F6</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L9.0mm_W3.8mm_P7.50mm_MKT</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F6CC8</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L9.0mm_W3.8mm_P7.50mm_MKT</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F9292</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1000uF</value>
+      <footprint>Capacitor_THT:C_Rect_L9.0mm_W3.8mm_P7.50mm_MKT</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F9813</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4002</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4002" description="100V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F81A239</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>9V Outputs</value>
+      <footprint>samz-footprint:dual_pads</footprint>
+      <libsource lib="samz-symbol" part="Dualpads" description="General pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F03EB</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>Dualpads</value>
+      <footprint>samz-footprint:dual_pads</footprint>
+      <libsource lib="samz-symbol" part="Dualpads" description="General pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F1E02</tstamp>
+    </comp>
+    <comp ref="X3">
+      <value>Dualpads</value>
+      <footprint>samz-footprint:dual_pads</footprint>
+      <libsource lib="samz-symbol" part="Dualpads" description="General pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F2370</tstamp>
+    </comp>
+    <comp ref="X4">
+      <value>Dualpads</value>
+      <footprint>samz-footprint:dual_pads</footprint>
+      <libsource lib="samz-symbol" part="Dualpads" description="General pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F24EE</tstamp>
+    </comp>
+    <comp ref="X5">
+      <value>Dualpads</value>
+      <footprint>samz-footprint:dual_pads</footprint>
+      <libsource lib="samz-symbol" part="Dualpads" description="General pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F288E</tstamp>
+    </comp>
+    <comp ref="X6">
+      <value>Dualpads</value>
+      <footprint>samz-footprint:dual_pads</footprint>
+      <libsource lib="samz-symbol" part="Dualpads" description="General pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F2C6D</tstamp>
+    </comp>
+    <comp ref="X7">
+      <value>AC Input </value>
+      <footprint>samz-footprint:dual_pads</footprint>
+      <libsource lib="samz-symbol" part="Dualpads" description="General pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7FC304</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4001">
+      <aliases>
+        <alias>1N4002</alias>
+        <alias>1N4003</alias>
+        <alias>1N4004</alias>
+        <alias>1N4005</alias>
+        <alias>1N4006</alias>
+        <alias>1N4007</alias>
+        <alias>BA157</alias>
+        <alias>BA158</alias>
+        <alias>BA159</alias>
+      </aliases>
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_PMIC-Voltage-Regulators-Linear" part="LM317T">
+      <description>IC REG LIN POS ADJ 1.5A TO220AB</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317T</field>
+        <field name="Footprint">digikey-footprints:TO-220-3</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf</field>
+        <field name="Digi-Key_PN">497-1575-5-ND</field>
+        <field name="MPN">LM317T</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">PMIC - Voltage Regulators - Linear</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/LM317T/497-1575-5-ND/591677</field>
+        <field name="Description">IC REG LIN POS ADJ 1.5A TO220AB</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="samz-symbol" part="Dualpads">
+      <description>General pad</description>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Dualpads</field>
+        <field name="Footprint">samz-footprint:Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Library/Application Support/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="dk_PMIC-Voltage-Regulators-Linear">
+      <uri>/Users/samz/projects/lib/digikey-kicad-library/digikey-symbols/dk_PMIC-Voltage-Regulators-Linear.lib</uri>
+    </library>
+    <library logical="samz-symbol">
+      <uri>/Users/samz/projects/lib/samz-kicad-library/samz-symbol.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="X7" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D1-Pad1)">
+      <node ref="D2" pin="2"/>
+      <node ref="X7" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C3-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="R3" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="X1" pin="2"/>
+      <node ref="X2" pin="2"/>
+      <node ref="X3" pin="2"/>
+      <node ref="X4" pin="2"/>
+      <node ref="X6" pin="2"/>
+      <node ref="X5" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C4-Pad1)">
+      <node ref="X6" pin="1"/>
+      <node ref="X5" pin="1"/>
+      <node ref="X4" pin="1"/>
+      <node ref="X3" pin="1"/>
+      <node ref="X2" pin="1"/>
+      <node ref="X1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+  </nets>
+</export>

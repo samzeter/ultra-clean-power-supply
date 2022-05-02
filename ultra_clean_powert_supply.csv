@@ -1,0 +1,13 @@
+Reference, Quantity, Value, Footprint, Datasheet, Category, DK_Datasheet_Link, DK_Detail_Page, Description, Digi-Key_PN, Family, MPN, Manufacturer, Status
+C1 ,1,"1000uF","Capacitor_THT:C_Rect_L9.0mm_W3.8mm_P7.50mm_MKT","~"
+C3 ,1,"10uF","Capacitor_THT:CP_Radial_D8.0mm_P5.00mm","~"
+C4 ,1,"470uF","Capacitor_THT:CP_Radial_D10.0mm_P7.50mm","~"
+C2 C5 ,2,"0.1uF","Capacitor_THT:C_Rect_L9.0mm_W3.8mm_P7.50mm_MKT","~"
+D1 D2 D3 D4 D5 D6 ,6,"1N4002","Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal","http://www.vishay.com/docs/88503/1n4001.pdf"
+R2 ,1,"274","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+R3 ,1,"6.8K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+R1 R4 ,2,"2K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+U1 ,1,"LM317T","Package_TO_SOT_THT:TO-220-3_Vertical","http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf","Integrated Circuits (ICs)","http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf","/product-detail/en/stmicroelectronics/LM317T/497-1575-5-ND/591677","IC REG LIN POS ADJ 1.5A TO220AB","497-1575-5-ND","PMIC - Voltage Regulators - Linear","LM317T","STMicroelectronics","Active"
+X1 ,1,"9V Outputs","samz-footprint:dual_pads",""
+X2 X3 X4 X5 X6 ,5,"Dualpads","samz-footprint:dual_pads",""
+X7 ,1,"AC Input ","samz-footprint:dual_pads",""
